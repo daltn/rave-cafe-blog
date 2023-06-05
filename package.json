@@ -6,6 +6,7 @@
     "format": "npx prettier --write . --ignore-path .gitignore --cache",
     "lint": "next lint -- --ignore-path .gitignore",
     "lint:fix": "npm run format && npm run lint -- --fix",
+    "preinstall": "npx only-allow pnpm",
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
